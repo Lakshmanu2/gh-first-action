@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-    - name: Print Greetings
-    run: echo "Hello UK and World .. "
-    - name : Print Good Bye
-    run : ehco "Done - Bye .. Will do next Item"
+      - name: Print Greetings
+        run: echo "Hello UK and World .. "
+      - name : Print Good Bye
+        run : ehco "Done - Bye .. Will do next Item"
